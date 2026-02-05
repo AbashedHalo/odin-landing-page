@@ -5,7 +5,7 @@ body {
 .header{
     background-color: #1F2937;
     display: flex;
-    padding: 10px;
+    padding: 16px 100px 16px 100px;
     justify-content: space-between;
     align-items: center;
 }
@@ -17,7 +17,7 @@ ul {
     list-style: none;
     padding: 0px;
     margin: 0;
-    gap: 10px;
+    gap: 16px;
 }
 
 .logo{
@@ -27,8 +27,20 @@ ul {
 
 .hero {
     background-color:#1F2937;
-    padding: 10px;
+    padding: 100px;
     display: flex;
+    gap: 32px;
+}
+
+.hero-left {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   flex: 1;
+}
+
+.hero-btn{
+    border-style: none;
 }
 
 .hero-main {
@@ -42,6 +54,17 @@ ul {
     color: #E5E7EB;
 }
 
+.hero-right {
+    display: flex;
+    align-content: center;
+    flex: 1;
+}
+
+.hero-img {
+    background-color: silver;
+    flex:1;
+}
+
 .information {
     display: flex;
     justify-content: center;
@@ -52,6 +75,11 @@ ul {
     color:#1F2937;
     font-weight: 900;
     justify-content: center;
+    margin: auto;
+}
+
+.card-container {
+    display: flex;
 }
 
 .info-card {
@@ -84,6 +112,10 @@ ul {
 button {
     background-color: #3882F6;
     color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 .footer {
