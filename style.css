@@ -20,6 +20,18 @@ ul {
     gap: 16px;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    border-style: none;
+    font-size: 14px;
+}
+
+
 .logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -126,20 +138,35 @@ ul {
 }
 
 .call-to-action-container {
-    
+    padding: 100px;
+    display: flex;
 }
 
-.cta-model {
-    background-color: #3882F6;
-}
-
-button {
+.cta-modal {
     background-color: #3882F6;
     color: white;
-    width: 100px;
-    height: 25px;
+    padding: 25px 50px;
     border-radius: 8px;
+    gap: 8px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.cta-header {
     font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-text {
+    color:#dbe8fc;
+}
+
+.cta-btn {
+    border: 2px solid white;
+    align-self: center;
 }
 
 .footer {
