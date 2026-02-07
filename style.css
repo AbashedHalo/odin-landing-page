@@ -125,7 +125,11 @@ ul {
     align-self: flex-end;
 }
 
-.call-to-action {
+.call-to-action-container {
+    
+}
+
+.cta-model {
     background-color: #3882F6;
 }
 
