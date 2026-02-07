@@ -107,16 +107,22 @@ ul {
     background-color: #E5E7EB;
     color: #1F2937;
     font-weight: 300;
+    padding: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
 }
 
 .quote-text{
     font-size: 36px;
     color: #1F2937;
+    font-style: italic;
 }
 
 .attribution {
     font-size: 18px;
     font-weight: bold;
+    align-self: flex-end;
 }
 
 .call-to-action {
