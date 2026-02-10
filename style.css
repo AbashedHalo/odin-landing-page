@@ -4,15 +4,22 @@ body {
 }
 
 .header{
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
+    background-color: #403737;
     padding: 16px 100px 16px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #EDE0D4;
+}
+
 ul {
-    color: #E5E7EB;
+    color: #EDE0D4;
     font-size: 18px;
     padding: 0px;
     margin: 0;
@@ -22,7 +29,7 @@ ul {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #A68A64;
     color: white;
     width: 100px;
     height: 30px;
@@ -32,14 +39,9 @@ button {
     font-size: 14px;
 }
 
-
-.logo{
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
 .hero {
-    background-color:#1F2937;
+    /* background-color:#E4E4E4; */
+    background-color: #403737;
     padding: 100px;
     gap: 32px;
     display: flex;
@@ -58,13 +60,15 @@ button {
 
 .hero-main {
     font-size: 48px;
-    color: #F9FAF8;
+    /* color: #7F5539; */
+    color: #EDE0D4;
     font-weight: 900;
 }
 
 .hero-secondary {
     font-size: 18px;
-    color: #E5E7EB;
+    /* color: #A68A64; */
+    color: #F9F5F1;
 }
 
 .hero-right {
@@ -88,11 +92,12 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #F9F5F1;
 }
 
 .information-header {
     font-size: 36px;
-    color:#1F2937;
+    color:#403737;
     justify-content: center;
     margin: auto;
     font-weight: 900;
@@ -107,7 +112,7 @@ button {
     width: 150px;
     text-align: center;
     font-size: 18px;
-    color: #1F2937;
+    color: #6D747D;
     display: flex;
     flex-direction: column;
 }
@@ -115,12 +120,12 @@ button {
 .info-image{
     width: 150px;
     height: 150px;
-    border: 2px solid #3882F6;
+    border: 2px solid #A68A64;
     border-radius: 8px;
 }
 
 .quote {
-    background-color: #E5E7EB;
+    background-color: #EDE0D4;
     color: #1F2937;
     font-weight: 300;
     padding: 100px;
@@ -131,11 +136,12 @@ button {
 
 .quote-text{
     font-size: 36px;
-    color: #1F2937;
+    color: #A68A64;
     font-style: italic;
 }
 
 .attribution {
+    color:#403737;
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
@@ -144,10 +150,12 @@ button {
 .call-to-action-container {
     padding: 100px;
     display: flex;
+    background-color:#F9F5F1;
 }
 
 .cta-modal {
-    background-color: #3882F6;
+    /* background-color: #403737; */
+    background-color: #EDE0D4;
     color: white;
     padding: 25px 50px;
     border-radius: 8px;
@@ -158,6 +166,7 @@ button {
 }
 
 .cta-header {
+    color: #403737;
     font-weight: bold;
     font-size: 18px;
     display: flex;
@@ -165,18 +174,18 @@ button {
 }
 
 .cta-text {
-    color:#dbe8fc;
+    color: #A68A64;
 }
 
 .cta-btn {
-    border: 2px solid white;
+    border: 2px solid #403737;
     align-self: center;
 }
 
 .footer {
-    background-color:#1F2937;
+    background-color:#403737;
     padding: 30px 0px;
-    color: white;
+    color: #EDE0D4;
     display: flex;
     justify-content: center;
     align-items: center;
