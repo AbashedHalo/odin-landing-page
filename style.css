@@ -9,7 +9,6 @@ li:hover {
 }
 
 .header{
-    /* background-color: #1F2937; */
     background-color: #403737;
     padding: 16px 100px 16px 100px;
     display: flex;
@@ -49,7 +48,6 @@ button:hover {
 }
 
 .hero {
-    /* background-color:#E4E4E4; */
     background-color: #403737;
     padding: 100px;
     gap: 32px;
@@ -69,14 +67,12 @@ button:hover {
 
 .hero-main {
     font-size: 48px;
-    /* color: #7F5539; */
     color: #EDE0D4;
     font-weight: 900;
 }
 
 .hero-secondary {
     font-size: 18px;
-    /* color: #A68A64; */
     color: #F9F5F1;
 }
 
@@ -87,8 +83,11 @@ button:hover {
 }
 
 .hero-img {
-    background-color: #6D747D;
+    display: flex;
     color: white;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
     flex:1;
     text-align: center;
     align-content: center;
@@ -163,7 +162,6 @@ button:hover {
 }
 
 .cta-modal {
-    /* background-color: #403737; */
     background-color: #EDE0D4;
     color: white;
     padding: 25px 50px;
